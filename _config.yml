@@ -39,6 +39,15 @@ comment:
   disqus:
     shortname: "githubio"
 
+# Analytics
+analytics:
+  provider               : "google-gtag" 
+                          # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          : "G-7CGRG9DHZ5"
+    anonymize_ip         : true
+                            # true, false (default)
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
